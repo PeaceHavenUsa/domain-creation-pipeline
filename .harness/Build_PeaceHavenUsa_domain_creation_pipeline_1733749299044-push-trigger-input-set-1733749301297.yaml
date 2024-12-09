@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_PeaceHavenUsa_domain_creation_pipeline_1733749299044-push-trigger-input-set
+  identifier: Build_PeaceHavenUsa_domain_creation_pipeline_1733749299044pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_PeaceHavenUsa_domain_creation_pipeline_1733749299044
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
